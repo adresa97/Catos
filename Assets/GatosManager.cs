@@ -1,31 +1,46 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class GatosManager : MonoBehaviour
 {
+    [SerializeField]
+    private GameEvents catEvents;
+
     public Gato[] gatos;
 
-    public void processData(string data)
+    public void OnEnable()
     {
-        if (data.Length == 3 &&
-            int.TryParse(data[0].ToString(), out int gatoIndex) &&
-            int.TryParse(data[1].ToString(), out int sombreroIndex) &&
-            int.TryParse(data[2].ToString(), out int camisaIndex))
-        {
-            Debug.Log($"🎯 Cambiar gato {gatoIndex}: Sombrero {sombreroIndex}, Camisa {camisaIndex}");
+        catEvents.AddListener(CatEventsCallback);
+    }
 
-            if (gatoIndex >= 0 && gatoIndex < gatos.Length && gatos[gatoIndex] != null)
-            {
-                gatos[gatoIndex].ActualizarRopa(sombreroIndex, camisaIndex);
-            }
-            else
-            {
-                Debug.LogWarning("⚠️ Índice de gato fuera de rango o gato no asignado.");
-            }
-        }
-        else
+    public void OnDisable()
+    {
+        catEvents.RemoveListener(CatEventsCallback);
+    }
+
+    private void CatEventsCallback(object data)
+    {
+        if(data is SendCatEvent)
         {
-            Debug.LogWarning("⚠️ Código no válido recibido: " + data);
+            ChangeCat((data as SendCatEvent).catIndex, (data as SendCatEvent).hatIndex, (data as SendCatEvent).shirtIndex);
         }
     }
 
+    private bool ChangeCat(int catIndex, int hatIndex, int shirtIndex)
+    {
+        if (catIndex >= gatos.Length)
+        {
+            Debug.LogWarning("⚠️ Índice de gato fuera de rango");
+            return false;
+        }
+
+        if (gatos[catIndex] == null)
+        {
+            Debug.LogWarning("⚠️ Gato no asignado");
+            return false;
+        }
+
+        gatos[catIndex].ActualizarRopa(hatIndex, shirtIndex);
+        return true;
+    }
 }

@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -205,9 +204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vestidor: {fileID: 611853008}
-  name: Raspa
-  cap: {fileID: 554717993}
-  tShirt: {fileID: 1352892040}
+  cap: {fileID: 554717995}
+  tShirt: {fileID: 1352892042}
 --- !u!4 &138150633
 Transform:
   m_ObjectHideFlags: 0
@@ -703,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8bd4de349993b94cb0c22f65a176392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gatosManager: {fileID: 1357992823}
+  catEvents: {fileID: 11400000, guid: d728c82dd05b72142880fc431ecbd316, type: 2}
 --- !u!4 &791877950
 Transform:
   m_ObjectHideFlags: 0
@@ -892,9 +890,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vestidor: {fileID: 611853008}
-  name: Raspa
-  cap: {fileID: 1740902116}
-  tShirt: {fileID: 743989977}
+  cap: {fileID: 1740902118}
+  tShirt: {fileID: 743989979}
 --- !u!4 &1151034273
 Transform:
   m_ObjectHideFlags: 0
@@ -998,9 +995,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vestidor: {fileID: 611853008}
-  name: Raspa
-  cap: {fileID: 886535075}
-  tShirt: {fileID: 1534500030}
+  cap: {fileID: 886535077}
+  tShirt: {fileID: 1534500032}
 --- !u!4 &1156481073
 Transform:
   m_ObjectHideFlags: 0
@@ -1134,6 +1130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a32ecc7a4816ff498ecd41fbef2bbfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  catEvents: {fileID: 11400000, guid: d728c82dd05b72142880fc431ecbd316, type: 2}
   gatos:
   - {fileID: 1156481072}
   - {fileID: 1151034272}

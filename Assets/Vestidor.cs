@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[System.Serializable]
 public class Vestidor : MonoBehaviour
 {
     [Header("Sprites de sombreros")]
@@ -8,4 +7,14 @@ public class Vestidor : MonoBehaviour
 
     [Header("Sprites de camisetas")]
     public Sprite[] tshirt;
+
+    public Sprite GetCapByIndex(int index)
+    {
+        return cap[index];
+    }
+
+    public Sprite GetShirtByIndex(int index)
+    {
+        return tshirt[index];
+    }
 }

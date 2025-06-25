@@ -4,8 +4,8 @@ public class Gato : MonoBehaviour
 {
     public Vestidor vestidor;
     //public string name;
-    public GameObject cap;
-    public GameObject tShirt;
+    public SpriteRenderer cap;
+    public SpriteRenderer tShirt;
 
     public void ActualizarRopa(int indexCap, int indexTshirt)
     {
@@ -13,13 +13,13 @@ public class Gato : MonoBehaviour
         changeTshirt(indexTshirt);
     }
 
-    public void changeCap(int index)
+    private void changeCap(int index)
     {
-        cap.GetComponent<SpriteRenderer>().sprite = vestidor.cap[index];
+        cap.sprite = vestidor.GetCapByIndex(index);
     }
 
-    public void changeTshirt(int index)
+    private void changeTshirt(int index)
     {
-        tShirt.GetComponent<SpriteRenderer>().sprite = vestidor.tshirt[index];
+        tShirt.sprite = vestidor.GetShirtByIndex(index);
     }
 }
