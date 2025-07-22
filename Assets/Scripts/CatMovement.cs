@@ -13,15 +13,19 @@ public class CatMovement : MonoBehaviour
     private BoxCollider2D _collider;
     private Rigidbody2D _rb;
     private SpriteRenderer _spriteRenderer;
+    private Animator _animator;
 
     private void Start()
     {
+
+
         _collider = GetComponent<BoxCollider2D>();
         _rb = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-
+        _animator = GetComponent<Animator>();
         StartCoroutine(PatrolRoutine());
     }
+
 
     private IEnumerator PatrolRoutine()
     {
@@ -33,6 +37,7 @@ public class CatMovement : MonoBehaviour
 
             while (timer < patrolTime)
             {
+
                 // Detecta si ha llegado al borde y lanza patrulla reactiva
                 if (IsAtScreenEdge())
                 {
@@ -44,6 +49,9 @@ public class CatMovement : MonoBehaviour
                     break; // Rompe el bucle actual
                 }
 
+                // Bool que cambia el estado de animacion
+                _animator.SetBool("isMoving", true);
+
                 _rb.velocity = new Vector2(direction * velocityX, _rb.velocity.y);
 
                 if (_spriteRenderer != null)
@@ -51,11 +59,18 @@ public class CatMovement : MonoBehaviour
 
                 timer += Time.deltaTime;
                 yield return null;
+
             }
+
 
             // Parar entre patrullas
             _rb.velocity = Vector2.zero;
             float restTime = GetRandomTime(minTimeResting, maxTimeResting);
+
+            // Bool que cambia el estado de animacion
+            _animator.SetBool("isMoving", false);
+
+
             yield return new WaitForSeconds(restTime);
         }
     }
@@ -98,4 +113,7 @@ public class CatMovement : MonoBehaviour
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
         return viewportPos.x <= 0.05f || viewportPos.x >= 0.95f;
     }
+
+
+
 }
