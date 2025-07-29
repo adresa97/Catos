@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Cabeza 1
+      m_Hash: 852676141
+      m_Sprite: {fileID: 5678737249536361733, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5678737249536361733, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Body
+    m_Hash: 999990412
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Cuerpo 1
+      m_Hash: 195412148
+      m_Sprite: {fileID: -8708342350760617560, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8708342350760617560, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Left Arm
+    m_Hash: 788631449
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Brazo Izquierdo 1
+      m_Hash: 334112586
+      m_Sprite: {fileID: 6224362284643031407, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6224362284643031407, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Right Arm
+    m_Hash: 747450821
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Brazo Derecho 1
+      m_Hash: 816606280
+      m_Sprite: {fileID: -8663880409097063621, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8663880409097063621, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Left Leg
+    m_Hash: 42955074
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pierna Izquierda 1
+      m_Hash: 868135474
+      m_Sprite: {fileID: 7685920947683094409, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7685920947683094409, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Right Leg
+    m_Hash: 17026846
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pierna Derecha 1
+      m_Hash: 149485769
+      m_Sprite: {fileID: -6947311926515226999, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6947311926515226999, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Tail
+    m_Hash: 470096739
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Cola 1
+      m_Hash: 533984457
+      m_Sprite: {fileID: 3465847814274101351, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3465847814274101351, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638894185004045221
+  m_Version: 1
