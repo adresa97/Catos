@@ -83,7 +83,7 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
-    spriteID: 84c6328ca5bead841a06a045526ecf55
+    spriteID: 14286ead808b4d24cae87f22cbfa482a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -95,6 +95,28 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
+  - name: Manga Derecha
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 4
+      width: 123
+      height: 179
+    spriteID: 3c356b6b60087b6469907497ebf780e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 4}
+    spritePosition: {x: 532, y: 391}
   - name: Base Camisa
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -105,9 +127,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 253
-      height: 281
-    spriteID: eedfba64d1c40f745a4a6fa7eb917862
+      width: 235
+      height: 293
+    spriteID: 2c3d4fa6971fad3428b6f5189ba09321
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -116,7 +138,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 325, y: 307}
+    spritePosition: {x: 335, y: 285}
   - name: Manga Izquierda
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -125,33 +147,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 293
-      width: 148
-      height: 174
-    spriteID: edebe3f1bea679240bb4e5358a2f6d60
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 293}
-    spritePosition: {x: 243, y: 398}
-  - name: Manga Derecha
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 265
+      x: 378
       y: 4
-      width: 154
-      height: 174
-    spriteID: 39a1e1316a3df194499d1f3a17c563a6
+      width: 121
+      height: 168
+    spriteID: 2687fe3acf2ea304698c08887bc037f8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,8 +159,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 265, y: 4}
-    spritePosition: {x: 520, y: 399}
+    uvTransform: {x: 378, y: 4}
+    spritePosition: {x: 260, y: 406}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -200,23 +200,13 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Cabeza
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8480674ae1f0fcb468e5811bdf7bec65
-    layerID: 5
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
   - name: Manga Derecha
     spriteName: Manga Derecha
     isGroup: 0
     parentIndex: -1
-    spriteID: 39a1e1316a3df194499d1f3a17c563a6
-    layerID: 16
-    mosaicPosition: {x: 265, y: 4}
+    spriteID: 3c356b6b60087b6469907497ebf780e9
+    layerID: 28
+    mosaicPosition: {x: 247, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -224,8 +214,8 @@ ScriptedImporter:
     spriteName: Base Camisa
     isGroup: 0
     parentIndex: -1
-    spriteID: eedfba64d1c40f745a4a6fa7eb917862
-    layerID: 18
+    spriteID: 2c3d4fa6971fad3428b6f5189ba09321
+    layerID: 24
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
@@ -234,82 +224,12 @@ ScriptedImporter:
     spriteName: Manga Izquierda
     isGroup: 0
     parentIndex: -1
-    spriteID: edebe3f1bea679240bb4e5358a2f6d60
-    layerID: 17
-    mosaicPosition: {x: 4, y: 293}
+    spriteID: 2687fe3acf2ea304698c08887bc037f8
+    layerID: 26
+    mosaicPosition: {x: 378, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Capa 1
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f9a5033e57ce35243a34bf969763fa55
-    layerID: 15
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Brazo Derecho
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8e82b5dfa4c63504d94af673811d58a0
-    layerID: 8
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Cuerpo
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f44a7a64321e4e24c8a41d0db7df9b1e
-    layerID: 9
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Pierna Derecha
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 813225ebc49989a468a6cf7043a5ef50
-    layerID: 10
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Pierna Izquierda
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 4ad36b331a3925049bcf0b6120b1f281
-    layerID: 11
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Brazo Izquierdo
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3f56e88ef4d31134b9237f4a04f41c85
-    layerID: 7
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Cola
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6417ca3168eaeba4596dab1cceff2005
-    layerID: 12
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
   mosaicPSDLayers: []
   rigPSDLayers: []
   sharedRigPSDLayers: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f5a6bc1f2bd953449ba1e1e46014c76
+guid: 3a9017c4701d4244ab3df1f747b77f06
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -83,7 +83,7 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
-    spriteID: dd883285d4ca39849bbecc361d440c85
+    spriteID: 4af622f7b6cec9842bed461ff3149465
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -95,7 +95,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Manga Derecha
+  - name: Chancla_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -103,11 +103,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 247
-      y: 4
-      width: 123
-      height: 179
-    spriteID: 765dc310a1ac98f4d9af73e7eb54040b
+      x: 4
+      y: 477
+      width: 332
+      height: 187
+    spriteID: 9da39a867b0023c46b0a629230563896
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -115,9 +115,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 247, y: 4}
-    spritePosition: {x: 532, y: 391}
-  - name: Base Camisa
+    uvTransform: {x: 4, y: 477}
+    spritePosition: {x: 94, y: 50}
+  - name: Zapatilla_Roja_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -127,9 +127,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 235
-      height: 293
-    spriteID: 4b156051dc561664989d19343db06c96
+      width: 392
+      height: 228
+    spriteID: b69f92171d0fc9f4ab8434de592e588e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,8 +138,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 335, y: 285}
-  - name: Manga Izquierda
+    spritePosition: {x: 45, y: 38}
+  - name: Zapatilla_Roja_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -147,11 +147,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 378
-      y: 4
-      width: 121
-      height: 168
-    spriteID: b274543121e7d594d9a034e55e5037ba
+      x: 4
+      y: 240
+      width: 386
+      height: 229
+    spriteID: 904f2d4aad8451f48a5c7d96c4ca0c97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,8 +159,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 378, y: 4}
-    spritePosition: {x: 260, y: 406}
+    uvTransform: {x: 4, y: 240}
+    spritePosition: {x: 48, y: 44}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -200,33 +200,33 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Manga Derecha
-    spriteName: Manga Derecha
+  - name: Chancla_1
+    spriteName: Chancla_1
     isGroup: 0
     parentIndex: -1
-    spriteID: 765dc310a1ac98f4d9af73e7eb54040b
-    layerID: 28
-    mosaicPosition: {x: 247, y: 4}
+    spriteID: 9da39a867b0023c46b0a629230563896
+    layerID: 9
+    mosaicPosition: {x: 4, y: 477}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Base Camisa
-    spriteName: Base Camisa
+  - name: Zapatilla_Roja_1
+    spriteName: Zapatilla_Roja_1
     isGroup: 0
     parentIndex: -1
-    spriteID: 4b156051dc561664989d19343db06c96
-    layerID: 24
+    spriteID: b69f92171d0fc9f4ab8434de592e588e
+    layerID: 5
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Manga Izquierda
-    spriteName: Manga Izquierda
+  - name: Zapatilla_Roja_2
+    spriteName: Zapatilla_Roja_2
     isGroup: 0
     parentIndex: -1
-    spriteID: b274543121e7d594d9a034e55e5037ba
-    layerID: 26
-    mosaicPosition: {x: 378, y: 4}
+    spriteID: 904f2d4aad8451f48a5c7d96c4ca0c97
+    layerID: 7
+    mosaicPosition: {x: 4, y: 240}
     flatten: 0
     isImported: 1
     isVisible: 1

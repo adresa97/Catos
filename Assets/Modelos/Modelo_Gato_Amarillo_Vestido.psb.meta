@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5cf892813bde9642b60b3e277c6a6ea
+guid: 37357f8e6c1178f48873801abe5842a5
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 0
+    spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -71,9 +71,9 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   singleSpriteImportData:
-  - name: Accesorios_Cabeza_1
+  - name: 
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -81,9 +81,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 682
-      height: 544
-    spriteID: e727ec122f190a1459bae01b85a15ce0
+      width: 0
+      height: 0
+    spriteID: a0f03c888e47c674e83809711905fc2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -95,7 +95,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Capa 9
+  - name: Manga Derecha
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -103,11 +103,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 634
+      x: 247
       y: 4
-      width: 382
-      height: 133
-    spriteID: 557ef3e8ce896f64eae8d06ef061299a
+      width: 123
+      height: 179
+    spriteID: c44bcf44e79a35147b5e369a02758256
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -115,9 +115,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 634, y: 4}
-    spritePosition: {x: 112, y: 139}
-  - name: Modelo
+    uvTransform: {x: 247, y: 4}
+    spritePosition: {x: 532, y: 391}
+  - name: Base Camisa
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -127,9 +127,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 622
-      height: 388
-    spriteID: b6454dba2f5e5c94fa0ccd9f94694d6a
+      width: 235
+      height: 293
+    spriteID: ae5d858e4c9f1cf44a808471c7d5d1fb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,7 +138,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 29, y: 61}
+    spritePosition: {x: 335, y: 285}
+  - name: Manga Izquierda
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 4
+      width: 121
+      height: 168
+    spriteID: a59c7e6aa1cbbec40a8f44bb140cddfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 4}
+    spritePosition: {x: 260, y: 406}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -157,31 +179,7 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -202,106 +200,126 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Parche Pirata
-    spriteName: Parche Pirata
+  - name: Capa 2
+    spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 5f26801c49208f14fb6d2213f6f2be7b
-    layerID: 4
-    mosaicPosition: {x: 4, y: 4}
+    spriteID: ab2685a79daa9fe408b888ba44e30bdb
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
-  - name: Capa 9
-    spriteName: Capa 9
+  - name: Capa 1
+    spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 557ef3e8ce896f64eae8d06ef061299a
-    layerID: 13
-    mosaicPosition: {x: 634, y: 4}
+    spriteID: 550ea56bbfe8f994782da29dc0c03cf6
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Cabeza
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 08cb7694b0224c743aa95cec8ad64e40
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Manga Derecha
+    spriteName: Manga Derecha
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c44bcf44e79a35147b5e369a02758256
+    layerID: 17
+    mosaicPosition: {x: 247, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Capa 8
+  - name: Base Camisa
+    spriteName: Base Camisa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ae5d858e4c9f1cf44a808471c7d5d1fb
+    layerID: 16
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga Izquierda
+    spriteName: Manga Izquierda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a59c7e6aa1cbbec40a8f44bb140cddfe
+    layerID: 15
+    mosaicPosition: {x: 378, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Brazo Derecho
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 31c73018501ef934fae507a452b7aaf7
-    layerID: 12
+    spriteID: 0de40f29bb42ffd4fa5bf51ac9f28a26
+    layerID: 8
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
-  - name: Capa 7
+  - name: Cuerpo
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: bdbb9b81a13c5cf44ad33f1fc47d0f69
-    layerID: 11
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Capa 6
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: da249392edbadb448900f2cb8a063637
-    layerID: 10
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Capa 5
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 84ad885af61b85c479733e75e6d29726
+    spriteID: 6bb7498c315778d4886535875feee23f
     layerID: 9
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
-  - name: Capa 3
+  - name: Pierna Derecha
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 5b7d2ecff2ba7d746aa3e7f532433f3a
+    spriteID: 6cd70672cd9768f4a851c9537f4e20d8
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Pierna Izquierda
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e2838244a2e212c4f9edfd9d36dbc984
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Brazo Izquierdo
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 268dc24c222a18944b4b99aefde628a5
     layerID: 7
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
-  - name: Capa 2
+  - name: Cola
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: d9f9b9c457d8ba34fbb0c5bd49d8cc18
-    layerID: 6
+    spriteID: 54767be1abbcf6c4991cbf19c5a33b93
+    layerID: 12
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
-  - name: Corona
-    spriteName: Corona
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 43d10340b4b689e4897fc62ebaa792f0
-    layerID: 3
-    mosaicPosition: {x: 4, y: 213}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Modelo
-    spriteName: Modelo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b6454dba2f5e5c94fa0ccd9f94694d6a
-    layerID: 2
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   mosaicPSDLayers: []
   rigPSDLayers: []
   sharedRigPSDLayers: []
