@@ -673,8 +673,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -7.11, z: 0}
-  m_LocalScale: {x: 5.83, y: 5.83, z: 5.83}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 17.73, y: 5.83, z: 5.83}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -775,7 +775,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 23384758041599695, guid: 145e16bf2eaac774997604912f65254c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 289578570328437719, guid: 145e16bf2eaac774997604912f65254c, type: 3}
       propertyPath: m_Sprite
@@ -803,7 +803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3910754722954154706, guid: 145e16bf2eaac774997604912f65254c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.317
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: 3910754722954154706, guid: 145e16bf2eaac774997604912f65254c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -841,6 +841,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3910754722954154706, guid: 145e16bf2eaac774997604912f65254c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4039601566560819726, guid: 145e16bf2eaac774997604912f65254c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -857,6 +861,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -8708342350760617560, guid: d01fd9f07f14207439046471c0d25743, type: 3}
+    - target: {fileID: 8725101683120732146, guid: 145e16bf2eaac774997604912f65254c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725101683120732146, guid: 145e16bf2eaac774997604912f65254c, type: 3}
+      propertyPath: velocityX
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725101683120732146, guid: 145e16bf2eaac774997604912f65254c, type: 3}
+      propertyPath: maxTimePatrolling
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725101683120732146, guid: 145e16bf2eaac774997604912f65254c, type: 3}
+      propertyPath: minTimePatrolling
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

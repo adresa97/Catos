@@ -3,117 +3,81 @@ using System.Collections;
 
 public class CatMovement : MonoBehaviour
 {
-    public float velocityX = 2f;
+    public float minTimePatrolling = 1f;
+    public float maxTimePatrolling = 2f;
+    [Range(0, 1)] public float idleProbability = 0.3f; // Probabilidad de quedarse quieto
 
-    public float minTimePatrolling = 2f;
-    public float maxTimePatrolling = 5f;
-    public float minTimeResting = 1f;
-    public float maxTimeResting = 3f;
-
-    private BoxCollider2D _collider;
     private Rigidbody2D _rb;
-    private SpriteRenderer _spriteRenderer;
     private Animator _animator;
+    private Coroutine _patrolCoroutine;
 
     private void Start()
     {
-
-
-        _collider = GetComponent<BoxCollider2D>();
         _rb = GetComponent<Rigidbody2D>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
-        StartCoroutine(PatrolRoutine());
+        StartPatrol();
     }
 
+    private void OnDisable()
+    {
+        if (_patrolCoroutine != null)
+        {
+            StopCoroutine(_patrolCoroutine);
+            _patrolCoroutine = null;
+        }
+    }
+
+    public void StartPatrol()
+    {
+        if (_patrolCoroutine != null)
+        {
+            StopCoroutine(_patrolCoroutine);
+        }
+        _patrolCoroutine = StartCoroutine(PatrolRoutine());
+    }
 
     private IEnumerator PatrolRoutine()
     {
         while (true)
         {
-            float direction = GetRandomDirection();
+            int direction = GetRandomDirection();
+            Debug.Log("Direction: " + direction);
+            
             float patrolTime = GetRandomTime(minTimePatrolling, maxTimePatrolling);
             float timer = 0f;
 
             while (timer < patrolTime)
             {
-
-                // Detecta si ha llegado al borde y lanza patrulla reactiva
-                if (IsAtScreenEdge())
-                {
-                    _rb.velocity = Vector2.zero;
-                    yield return new WaitForSeconds(1f); // Pausa
-
-                    // Inicia patrulla reactiva de 2 segundos en dirección contraria
-                    yield return StartCoroutine(PatrolOppositeDirection(-direction, 2f));
-                    break; // Rompe el bucle actual
-                }
-
-                // Bool que cambia el estado de animacion
-                _animator.SetBool("isMoving", true);
-
-                _rb.velocity = new Vector2(direction * velocityX, _rb.velocity.y);
-
-                if (_spriteRenderer != null)
-                    _spriteRenderer.flipX = direction > 0;
-
+                _rb.velocity = new Vector2(direction, _rb.velocity.y);
+                _animator.SetFloat("Movement", direction); // Usar valor absoluto para la animación
+                
                 timer += Time.deltaTime;
                 yield return null;
-
             }
-
-
-            // Parar entre patrullas
-            _rb.velocity = Vector2.zero;
-            float restTime = GetRandomTime(minTimeResting, maxTimeResting);
-
-            // Bool que cambia el estado de animacion
-            _animator.SetBool("isMoving", false);
-
-
-            yield return new WaitForSeconds(restTime);
+            
+            // Pequeña pausa entre movimientos
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
-    private IEnumerator PatrolOppositeDirection(float direction, float duration)
-    {
-        float timer = 0f;
-
-        while (timer < duration)
-        {
-            _rb.velocity = new Vector2(direction * velocityX, _rb.velocity.y);
-
-            if (_spriteRenderer != null)
-                _spriteRenderer.flipX = direction > 0;
-
-            timer += Time.deltaTime;
-            yield return null;
-        }
-
-        _rb.velocity = Vector2.zero;
-    }
-
+    // Devuelve -1, 0 o 1 con probabilidad configurable
     private int GetRandomDirection()
     {
-        int dir;
-        do
+        float randomValue = Random.value;
+        
+        if (randomValue < idleProbability)
         {
-            dir = Random.Range(-1, 2); // -1, 0, 1
-        } while (dir == 0);
-        return dir;
+            return 0; // Quedarse quieto
+        }
+        else
+        {
+            // Mover izquierda o derecha con igual probabilidad
+            return Random.value < 0.5f ? -1 : 1;
+        }
     }
 
     private float GetRandomTime(float min, float max)
     {
         return Random.Range(min, max);
     }
-
-    private bool IsAtScreenEdge()
-    {
-        Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
-        return viewportPos.x <= 0.05f || viewportPos.x >= 0.95f;
-    }
-
-
-
 }
