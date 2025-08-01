@@ -23,10 +23,17 @@ public class SendCatEvent
         private set;
     }
 
-    public SendCatEvent(int catIndex, int hatIndex, int shirtIndex)
+    public int shoeIndex
+    {
+        get;
+        private set;
+    }
+
+    public SendCatEvent(int catIndex, int hatIndex, int shirtIndex, int shoeIndex)
     {
         this.catIndex = catIndex;
         this.hatIndex = hatIndex;
         this.shirtIndex = shirtIndex;
+        this.shoeIndex = shoeIndex;
     }
 }

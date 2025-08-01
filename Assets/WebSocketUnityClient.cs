@@ -69,10 +69,11 @@ public class WebSocketUnityClient : MonoBehaviour
             return false;
         }
 
-        int.TryParse(data[0].ToString(), out int catIndex);
-        if (catIndex < 0)
+        int.TryParse(data[0].ToString(), out int msgType);
+        if (msgType == '1')
         {
-            lock(TODO)
+            Debug.Log("Código (" + data + ") recibido corresponde a un pescado");
+            lock (TODO)
             {
                 TODO.Enqueue(() =>
                 {
@@ -82,26 +83,29 @@ public class WebSocketUnityClient : MonoBehaviour
             return true;
         }
 
-        if (data.Length < 3)
+        if (data.Length < 5)
         {
             Debug.LogWarning("⚠️ Código inválido: " + data);
             return false;
         }
 
-        int.TryParse(data[1].ToString(), out int hatIndex);
-        int.TryParse(data[2].ToString(), out int shirtIndex);
+        int.TryParse(data[1].ToString(), out int catIndex);
+        int.TryParse(data[2].ToString(), out int hatIndex);
+        int.TryParse(data[3].ToString(), out int shirtIndex);
+        int.TryParse(data[4].ToString(), out int shoeIndex);
 
-        if (hatIndex < 0 || shirtIndex < 0)
+        if (catIndex < 0 || hatIndex < 0 || shirtIndex < 0 || shoeIndex < 0)
         {
-            Debug.LogWarning("⚠️ Los valores de ropa no deben ser negativos");
+            Debug.LogWarning("⚠️ Los valores no deben ser negativos");
             return false;
         }
 
-        lock(TODO)
+        Debug.Log("Código (" + data + ") recibido corresponde a un gato");
+        lock (TODO)
         {
             TODO.Enqueue(() =>
             {
-                catEvents.Emit(new SendCatEvent(catIndex, hatIndex, shirtIndex));
+                catEvents.Emit(new SendCatEvent(catIndex, hatIndex, shirtIndex, shoeIndex));
             });
         }
         return true;

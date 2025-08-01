@@ -22,11 +22,11 @@ public class GatosManager : MonoBehaviour
     {
         if(data is SendCatEvent)
         {
-            ChangeCat((data as SendCatEvent).catIndex, (data as SendCatEvent).hatIndex, (data as SendCatEvent).shirtIndex);
+            ChangeCat((data as SendCatEvent).catIndex, (data as SendCatEvent).hatIndex, (data as SendCatEvent).shirtIndex, (data as SendCatEvent).shoeIndex);
         }
     }
 
-    private bool ChangeCat(int catIndex, int hatIndex, int shirtIndex)
+    private bool ChangeCat(int catIndex, int hatIndex, int shirtIndex, int shoeIndex)
     {
         if (catIndex >= gatos.Length)
         {
