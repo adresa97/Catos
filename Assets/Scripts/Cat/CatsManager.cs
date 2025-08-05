@@ -1,12 +1,23 @@
-﻿using Unity.VisualScripting;
+﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class GatosManager : MonoBehaviour
+public class CatsManager : MonoBehaviour
 {
     [SerializeField]
     private GameEvents catEvents;
 
-    public Gato[] gatos;
+    [SerializeField]
+    private CatWardrobe[] cats;
+
+    [SerializeField]
+    private Sprite[] headAccesories;
+
+    [SerializeField]
+    private ShirtSprites[] shirts;
+
+    [SerializeField]
+    private ShoesSprites[] shoes;
 
     public void OnEnable()
     {
@@ -28,19 +39,34 @@ public class GatosManager : MonoBehaviour
 
     private bool ChangeCat(int catIndex, int hatIndex, int shirtIndex, int shoeIndex)
     {
-        if (catIndex >= gatos.Length)
+        if (catIndex >= cats.Length)
         {
             Debug.LogWarning("⚠️ Índice de gato fuera de rango");
             return false;
         }
 
-        if (gatos[catIndex] == null)
+        if (cats[catIndex] == null)
         {
             Debug.LogWarning("⚠️ Gato no asignado");
             return false;
         }
 
-        gatos[catIndex].ActualizarRopa(hatIndex, shirtIndex);
+        cats[catIndex].ChangeClothes(headAccesories[hatIndex], shirts[shirtIndex], shoes[shoeIndex]);
         return true;
     }
+}
+
+[Serializable]
+public struct ShirtSprites
+{
+    public Sprite main;
+    public Sprite leftArm;
+    public Sprite rightArm;
+}
+
+[Serializable]
+public struct ShoesSprites
+{
+    public Sprite leftShoe;
+    public Sprite rightShoe;
 }
