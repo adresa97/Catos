@@ -95,7 +95,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Manga Derecha
+  - name: Vestido_Azul_Arriba
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -103,11 +103,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 247
-      y: 4
-      width: 123
-      height: 179
-    spriteID: 3c356b6b60087b6469907497ebf780e9
+      x: 4
+      y: 867
+      width: 197
+      height: 142
+    spriteID: 9604722ecda9bfc4a9e555f958a8fdc8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -115,9 +115,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 247, y: 4}
-    spritePosition: {x: 532, y: 391}
-  - name: Base Camisa
+    uvTransform: {x: 4, y: 867}
+    spritePosition: {x: 469, y: 417}
+  - name: Vestido_Azul_Abajo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -127,9 +127,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 235
-      height: 293
-    spriteID: 2c3d4fa6971fad3428b6f5189ba09321
+      width: 537
+      height: 507
+    spriteID: 0493eca992671d04dadc0aed92ddecca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,20 +138,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 335, y: 285}
-  - name: Manga Izquierda
+    spritePosition: {x: 184, y: 63}
+  - name: Vestido_Rosa
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5137438, y: 0.4592435}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 378
-      y: 4
-      width: 121
-      height: 168
-    spriteID: 2687fe3acf2ea304698c08887bc037f8
+      x: 538
+      y: 0
+      width: 470
+      height: 538
+    spriteID: 6788f92b7a576664187424afc530816d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,8 +159,184 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 378, y: 4}
-    spritePosition: {x: 260, y: 406}
+    uvTransform: {x: 549, y: 4}
+    spritePosition: {x: 235, y: 60}
+  - name: Manga_Rosa_Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 490
+      y: 731
+      width: 132
+      height: 233
+    spriteID: 7a5e87b25efc35a45903e53800f5b9b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 731}
+    spritePosition: {x: 227, y: 337}
+  - name: Manga_Rosa_Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 767
+      y: 731
+      width: 117
+      height: 206
+    spriteID: c828822e11a8e0d40bf8eae3aca48725
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 767, y: 731}
+    spritePosition: {x: 561, y: 348}
+  - name: Manga_Camiseta_Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 794
+      y: 519
+      width: 124
+      height: 199
+    spriteID: c81199e3a4603f345bca68f9f0289ef1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 794, y: 519}
+    spritePosition: {x: 534, y: 386}
+  - name: Camiseta_Negra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 519
+      width: 244
+      height: 340
+    spriteID: 7e2066112c697a042b13f4f4b493ae22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 519}
+    spritePosition: {x: 335, y: 246}
+  - name: Manga_Camiseta_Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 490
+      y: 519
+      width: 155
+      height: 204
+    spriteID: 260af31aadff20541b9583a06f7d4254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 519}
+    spritePosition: {x: 232, y: 386}
+  - name: Manga_Azul_Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 630
+      y: 731
+      width: 129
+      height: 189
+    spriteID: c8cea899a0203844885f68fda13797d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 630, y: 731}
+    spritePosition: {x: 537, y: 389}
+  - name: Camiseta_Azul
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 519
+      width: 226
+      height: 307
+    spriteID: c3766af4e250a36459841efe275b7108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 519}
+    spritePosition: {x: 344, y: 278}
+  - name: Manga_Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 519
+      width: 133
+      height: 195
+    spriteID: f2f23e2c7f6c07a4180388090fc64067
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 519}
+    spritePosition: {x: 254, y: 391}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -200,33 +376,113 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Manga Derecha
-    spriteName: Manga Derecha
+  - name: Vestido_Azul_Arriba
+    spriteName: Vestido_Azul_Arriba
     isGroup: 0
     parentIndex: -1
-    spriteID: 3c356b6b60087b6469907497ebf780e9
-    layerID: 28
-    mosaicPosition: {x: 247, y: 4}
+    spriteID: 9604722ecda9bfc4a9e555f958a8fdc8
+    layerID: 40
+    mosaicPosition: {x: 4, y: 867}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Base Camisa
-    spriteName: Base Camisa
+  - name: Vestido_Azul_Abajo
+    spriteName: Vestido_Azul_Abajo
     isGroup: 0
     parentIndex: -1
-    spriteID: 2c3d4fa6971fad3428b6f5189ba09321
-    layerID: 24
+    spriteID: 0493eca992671d04dadc0aed92ddecca
+    layerID: 39
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Manga Izquierda
-    spriteName: Manga Izquierda
+  - name: Vestido_Rosa
+    spriteName: Vestido_Rosa
     isGroup: 0
     parentIndex: -1
-    spriteID: 2687fe3acf2ea304698c08887bc037f8
-    layerID: 26
-    mosaicPosition: {x: 378, y: 4}
+    spriteID: 6788f92b7a576664187424afc530816d
+    layerID: 37
+    mosaicPosition: {x: 549, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Rosa_Izq
+    spriteName: Manga_Rosa_Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7a5e87b25efc35a45903e53800f5b9b3
+    layerID: 38
+    mosaicPosition: {x: 490, y: 731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Rosa_Der
+    spriteName: Manga_Rosa_Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c828822e11a8e0d40bf8eae3aca48725
+    layerID: 36
+    mosaicPosition: {x: 767, y: 731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Camiseta_Der
+    spriteName: Manga_Camiseta_Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c81199e3a4603f345bca68f9f0289ef1
+    layerID: 35
+    mosaicPosition: {x: 794, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camiseta_Negra
+    spriteName: Camiseta_Negra
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e2066112c697a042b13f4f4b493ae22
+    layerID: 34
+    mosaicPosition: {x: 4, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Camiseta_Izq
+    spriteName: Manga_Camiseta_Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 260af31aadff20541b9583a06f7d4254
+    layerID: 33
+    mosaicPosition: {x: 490, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Azul_Der
+    spriteName: Manga_Azul_Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c8cea899a0203844885f68fda13797d1
+    layerID: 32
+    mosaicPosition: {x: 630, y: 731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camiseta_Azul
+    spriteName: Camiseta_Azul
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c3766af4e250a36459841efe275b7108
+    layerID: 31
+    mosaicPosition: {x: 256, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Manga_Izq
+    spriteName: Manga_Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f2f23e2c7f6c07a4180388090fc64067
+    layerID: 30
+    mosaicPosition: {x: 653, y: 519}
     flatten: 0
     isImported: 1
     isVisible: 1

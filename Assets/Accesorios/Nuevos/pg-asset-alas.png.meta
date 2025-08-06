@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: 9910911d63daa504486f318e164b6717
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -703526751884814216
+    second: pg-asset-alas_0
+  - first:
+      213: 3402423937744748803
+    second: pg-asset-alas_1
+  - first:
+      213: -8013816689731658111
+    second: pg-asset-alas_2
+  - first:
+      213: 1046641132422251049
+    second: pg-asset-alas_3
+  - first:
+      213: -3619885726688450093
+    second: pg-asset-alas_4
+  - first:
+      213: -7276328133573945446
+    second: pg-asset-alas_5
+  - first:
+      213: 5966720760547206554
+    second: pg-asset-alas_6
+  - first:
+      213: -7235944352135178343
+    second: pg-asset-alas_7
+  - first:
+      213: -5414607904450408121
+    second: pg-asset-alas_8
+  - first:
+      213: 4319064337979563438
+    second: pg-asset-alas_9
+  - first:
+      213: -2062008825279650362
+    second: pg-asset-alas_10
+  - first:
+      213: -1824009655156631569
+    second: pg-asset-alas_11
+  - first:
+      213: -2553819209358424517
+    second: pg-asset-alas_12
+  - first:
+      213: 5660957593952968375
+    second: pg-asset-alas_13
+  - first:
+      213: -3730850131606856278
+    second: pg-asset-alas_14
+  - first:
+      213: 8244455208765530198
+    second: pg-asset-alas_15
+  - first:
+      213: 6213474642816383755
+    second: pg-asset-alas_16
+  - first:
+      213: 2327670181293403424
+    second: pg-asset-alas_17
+  - first:
+      213: 7999706281139570832
+    second: pg-asset-alas_18
+  - first:
+      213: 7578528152783609225
+    second: pg-asset-alas_19
+  - first:
+      213: -2501375290321682352
+    second: pg-asset-alas_20
+  - first:
+      213: -998971862096092617
+    second: pg-asset-alas_21
+  - first:
+      213: -1023002468242560163
+    second: pg-asset-alas_22
+  - first:
+      213: -2154586789703474586
+    second: pg-asset-alas_23
+  - first:
+      213: -8925524323105768006
+    second: pg-asset-alas_24
+  - first:
+      213: 1928858431590412632
+    second: pg-asset-alas_25
+  - first:
+      213: -478263546396929128
+    second: pg-asset-alas_26
+  - first:
+      213: -8753426944575830708
+    second: pg-asset-alas_27
+  - first:
+      213: -5383772857419906942
+    second: pg-asset-alas_28
+  - first:
+      213: 4922977322064372444
+    second: pg-asset-alas_29
+  - first:
+      213: 2578210432300424236
+    second: pg-asset-alas_30
+  - first:
+      213: 2162200691397131538
+    second: pg-asset-alas_31
+  - first:
+      213: 826098614748525968
+    second: pg-asset-alas_32
+  - first:
+      213: 3867567987793584873
+    second: pg-asset-alas_33
+  - first:
+      213: -8721397806779387331
+    second: pg-asset-alas_34
+  - first:
+      213: -2173545668570712474
+    second: pg-asset-alas_35
+  - first:
+      213: 722619833254079329
+    second: pg-asset-alas_36
+  - first:
+      213: -552405958098154902
+    second: pg-asset-alas_37
+  - first:
+      213: 3620703820854843874
+    second: pg-asset-alas_38
+  - first:
+      213: 8765537494657861197
+    second: pg-asset-alas_39
+  - first:
+      213: 4459065485620381201
+    second: pg-asset-alas_40
+  - first:
+      213: 696044786857452438
+    second: pg-asset-alas_41
+  - first:
+      213: -6598609652834541878
+    second: pg-asset-alas_42
+  - first:
+      213: 6626792871306591037
+    second: pg-asset-alas_43
+  - first:
+      213: 422404325084896992
+    second: pg-asset-alas_44
+  - first:
+      213: 2796241538152666088
+    second: pg-asset-alas_45
+  - first:
+      213: 6619533890439539481
+    second: pg-asset-alas_46
+  - first:
+      213: 98230528305803476
+    second: pg-asset-alas_47
+  - first:
+      213: 5620232413868472300
+    second: pg-asset-alas_48
+  - first:
+      213: 1607338322863718946
+    second: pg-asset-alas_49
+  - first:
+      213: -883821182932514583
+    second: pg-asset-alas_50
+  - first:
+      213: -9043361397528857614
+    second: pg-asset-alas_51
+  - first:
+      213: 1489571793331205055
+    second: pg-asset-alas_52
+  - first:
+      213: -1083631022875105100
+    second: pg-asset-alas_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pg-asset-alas_0
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1854
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878dbe785229c36f0800000000000000
+      internalID: -703526751884814216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_1
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1858
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301cf886b86d73f20800000000000000
+      internalID: 3402423937744748803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_2
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1846
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e92710e2439c090800000000000000
+      internalID: -8013816689731658111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_3
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1830
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224759809a668e00800000000000000
+      internalID: 1046641132422251049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 730
+        width: 1728
+        height: 1072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d96a3d4c1593cdc0800000000000000
+      internalID: -3619885726688450093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_5
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1778
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97d4293d1a450b90800000000000000
+      internalID: -7276328133573945446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1624
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a956d5e2bec0ec250800000000000000
+      internalID: 5966720760547206554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1616
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9971d7c03f2c49b90800000000000000
+      internalID: -7235944352135178343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1630
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74116397cc27bd4b0800000000000000
+      internalID: -5414607904450408121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1578
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead545bc12660fb30800000000000000
+      internalID: 4319064337979563438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1408
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c56c7df5e54263e0800000000000000
+      internalID: -2062008825279650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1392
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe79185f1e0dfa6e0800000000000000
+      internalID: -1824009655156631569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1414
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b364f95b5f20f8cd0800000000000000
+      internalID: -2553819209358424517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1397
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bedd1c40f2cf8e40800000000000000
+      internalID: 5660957593952968375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_14
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1404
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad9a5b729b593cc0800000000000000
+      internalID: -3730850131606856278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_15
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1377
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650a615d4503a6270800000000000000
+      internalID: 8244455208765530198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_16
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1371
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bb7f96442ba3650800000000000000
+      internalID: 6213474642816383755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_17
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1340
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d234682bb8d4020800000000000000
+      internalID: 2327670181293403424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_18
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1354
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09809ca7a7aa40f60800000000000000
+      internalID: 7999706281139570832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_19
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1349
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dd6f2c3375c2960800000000000000
+      internalID: 7578528152783609225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_20
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1306
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050cf622d64594dd0800000000000000
+      internalID: -2501375290321682352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_21
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1320
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732e62b5260f222f0800000000000000
+      internalID: -998971862096092617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_22
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bed0cdca09dc1f0800000000000000
+      internalID: -1023002468242560163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_23
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1273
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662a9f1fabe5912e0800000000000000
+      internalID: -2154586789703474586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_24
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1235
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdfb27eaea222480800000000000000
+      internalID: -8925524323105768006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_25
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1228
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851b6f4268ea4ca10800000000000000
+      internalID: 1928858431590412632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_26
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8931ef7a6dddc59f0800000000000000
+      internalID: -478263546396929128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_27
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1219
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4589315294958680800000000000000
+      internalID: -8753426944575830708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_28
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1163
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c8125c1ff845b0800000000000000
+      internalID: -5383772857419906942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_29
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1154
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd263f69acde15440800000000000000
+      internalID: 4922977322064372444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_30
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1168
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c197d6ab4a7c320800000000000000
+      internalID: 2578210432300424236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_31
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1157
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d74dfa21ea10e10800000000000000
+      internalID: 2162200691397131538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_32
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1173
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09537813054e67b00800000000000000
+      internalID: 826098614748525968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_33
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2eb19f79c5ca530800000000000000
+      internalID: 3867567987793584873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_34
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d323b0617ee57f680800000000000000
+      internalID: -8721397806779387331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_35
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f0c9fab306d1e0800000000000000
+      internalID: -2173545668570712474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_36
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1142
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16be2c4e8e2470a00800000000000000
+      internalID: 722619833254079329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1106
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a00c735b57558f0800000000000000
+      internalID: -552405958098154902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1122
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9d3f611f25f3230800000000000000
+      internalID: 3620703820854843874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1115
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46037ad8e175a970800000000000000
+      internalID: 8765537494657861197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_40
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1107
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1168b9c1f68c1ed30800000000000000
+      internalID: 4459065485620381201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_41
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1121
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693a66cbb09d8a900800000000000000
+      internalID: 696044786857452438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_42
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1097
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace555f4b770d64a0800000000000000
+      internalID: -6598609652834541878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_43
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1065
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf156910917fb50800000000000000
+      internalID: 6626792871306591037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_44
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1070
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee1644ee7eacd500800000000000000
+      internalID: 422404325084896992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_45
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1078
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e318c32dde3ec620800000000000000
+      internalID: 2796241538152666088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_46
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1042
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bee46600f4ddb50800000000000000
+      internalID: 6619533890439539481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_47
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 985
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d034c1252cfc5100800000000000000
+      internalID: 98230528305803476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_48
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 986
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce734c76a931ffd40800000000000000
+      internalID: 5620232413868472300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 977
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2220a2840b96e4610800000000000000
+      internalID: 1607338322863718946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 951
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8875a11590cb3f0800000000000000
+      internalID: -883821182932514583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 845
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3ffc409b68f7280800000000000000
+      internalID: -9043361397528857614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_52
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 854
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3b2f867a50ca410800000000000000
+      internalID: 1489571793331205055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pg-asset-alas_53
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 832
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8afe5735b26f0f0800000000000000
+      internalID: -1083631022875105100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pg-asset-alas_0: -703526751884814216
+      pg-asset-alas_1: 3402423937744748803
+      pg-asset-alas_10: -2062008825279650362
+      pg-asset-alas_11: -1824009655156631569
+      pg-asset-alas_12: -2553819209358424517
+      pg-asset-alas_13: 5660957593952968375
+      pg-asset-alas_14: -3730850131606856278
+      pg-asset-alas_15: 8244455208765530198
+      pg-asset-alas_16: 6213474642816383755
+      pg-asset-alas_17: 2327670181293403424
+      pg-asset-alas_18: 7999706281139570832
+      pg-asset-alas_19: 7578528152783609225
+      pg-asset-alas_2: -8013816689731658111
+      pg-asset-alas_20: -2501375290321682352
+      pg-asset-alas_21: -998971862096092617
+      pg-asset-alas_22: -1023002468242560163
+      pg-asset-alas_23: -2154586789703474586
+      pg-asset-alas_24: -8925524323105768006
+      pg-asset-alas_25: 1928858431590412632
+      pg-asset-alas_26: -478263546396929128
+      pg-asset-alas_27: -8753426944575830708
+      pg-asset-alas_28: -5383772857419906942
+      pg-asset-alas_29: 4922977322064372444
+      pg-asset-alas_3: 1046641132422251049
+      pg-asset-alas_30: 2578210432300424236
+      pg-asset-alas_31: 2162200691397131538
+      pg-asset-alas_32: 826098614748525968
+      pg-asset-alas_33: 3867567987793584873
+      pg-asset-alas_34: -8721397806779387331
+      pg-asset-alas_35: -2173545668570712474
+      pg-asset-alas_36: 722619833254079329
+      pg-asset-alas_37: -552405958098154902
+      pg-asset-alas_38: 3620703820854843874
+      pg-asset-alas_39: 8765537494657861197
+      pg-asset-alas_4: -3619885726688450093
+      pg-asset-alas_40: 4459065485620381201
+      pg-asset-alas_41: 696044786857452438
+      pg-asset-alas_42: -6598609652834541878
+      pg-asset-alas_43: 6626792871306591037
+      pg-asset-alas_44: 422404325084896992
+      pg-asset-alas_45: 2796241538152666088
+      pg-asset-alas_46: 6619533890439539481
+      pg-asset-alas_47: 98230528305803476
+      pg-asset-alas_48: 5620232413868472300
+      pg-asset-alas_49: 1607338322863718946
+      pg-asset-alas_5: -7276328133573945446
+      pg-asset-alas_50: -883821182932514583
+      pg-asset-alas_51: -9043361397528857614
+      pg-asset-alas_52: 1489571793331205055
+      pg-asset-alas_53: -1083631022875105100
+      pg-asset-alas_6: 5966720760547206554
+      pg-asset-alas_7: -7235944352135178343
+      pg-asset-alas_8: -5414607904450408121
+      pg-asset-alas_9: 4319064337979563438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
