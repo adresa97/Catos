@@ -11,6 +11,8 @@ public class CatMovement : MonoBehaviour
     private Animator _animator;
     private Coroutine _patrolCoroutine;
 
+    private int direction;
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -29,20 +31,33 @@ public class CatMovement : MonoBehaviour
 
     public void StartPatrol()
     {
-        if (_patrolCoroutine != null)
-        {
-            StopCoroutine(_patrolCoroutine);
-        }
-        _patrolCoroutine = StartCoroutine(PatrolRoutine());
+        SetRandomPatrol();
     }
 
-    private IEnumerator PatrolRoutine()
+    private void SetRandomPatrol()
+    {
+        if (_patrolCoroutine != null) StopCoroutine(_patrolCoroutine);
+
+        direction = GetRandomDirection();
+        Debug.Log("Direction: " + direction);
+
+        _patrolCoroutine = StartCoroutine(PatrolRoutine(direction));
+    }
+
+    private void ChangeDirection()
+    {
+        if (_patrolCoroutine != null) StopCoroutine(_patrolCoroutine);
+
+        direction = -direction;
+        Debug.Log("Direction: " + direction);
+
+        _patrolCoroutine = StartCoroutine(PatrolRoutine(direction));
+    }
+
+    private IEnumerator PatrolRoutine(int direction)
     {
         while (true)
         {
-            int direction = GetRandomDirection();
-            Debug.Log("Direction: " + direction);
-            
             float patrolTime = GetRandomTime(minTimePatrolling, maxTimePatrolling);
             float timer = 0f;
 
@@ -50,11 +65,11 @@ public class CatMovement : MonoBehaviour
             {
                 _rb.velocity = new Vector2(direction, _rb.velocity.y);
                 _animator.SetFloat("Movement", direction); // Usar valor absoluto para la animación
-                
+
                 timer += Time.deltaTime;
                 yield return null;
             }
-            
+
             // Pequeña pausa entre movimientos
             yield return new WaitForSeconds(0.1f);
         }
@@ -79,5 +94,13 @@ public class CatMovement : MonoBehaviour
     private float GetRandomTime(float min, float max)
     {
         return Random.Range(min, max);
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("MapBounds"))
+        {
+            ChangeDirection();
+        }
     }
 }
