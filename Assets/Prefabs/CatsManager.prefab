@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &443411323041489340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2795911481459210702}
+  - component: {fileID: 8058607833720056487}
+  m_Layer: 0
+  m_Name: CatsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2795911481459210702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443411323041489340}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5799999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8058607833720056487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443411323041489340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a32ecc7a4816ff498ecd41fbef2bbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catEvents: {fileID: 11400000, guid: d728c82dd05b72142880fc431ecbd316, type: 2}
+  cats:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  headAccesories:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 73fc203f8989c1043b7450899bcdc6c6, type: 3}
+  - {fileID: 21300000, guid: 193b27caa7259814988294da95a6f568, type: 3}
+  - {fileID: 21300000, guid: 8b1b31e787b76e44593eb6b2ad2f5ada, type: 3}
+  - {fileID: 21300000, guid: 030e99743bff6cd44846c9e686257c83, type: 3}
+  - {fileID: 21300000, guid: b580b7c0000dd87478a1243c794cf118, type: 3}
+  - {fileID: 21300000, guid: 5903bf9b7eb2642408910ecd5b1a3c17, type: 3}
+  - {fileID: 21300000, guid: 4f97aa4e8e97b6c4d8fa5df8f9fd2b40, type: 3}
+  shirts:
+  - main: {fileID: 0}
+    dress: {fileID: 0}
+    leftArm: {fileID: 0}
+    rightArm: {fileID: 0}
+    back: {fileID: 0}
+  - main: {fileID: 21300000, guid: c7683bcfeb25443459ee126b753e3787, type: 3}
+    dress: {fileID: 0}
+    leftArm: {fileID: 21300000, guid: 667548cdd6446a449b7ec8c070f0af47, type: 3}
+    rightArm: {fileID: 21300000, guid: f3169b56406d37f4798873ca7ea057a8, type: 3}
+    back: {fileID: 0}
+  - main: {fileID: 0}
+    dress: {fileID: 0}
+    leftArm: {fileID: 0}
+    rightArm: {fileID: 0}
+    back: {fileID: 21300000, guid: 9910911d63daa504486f318e164b6717, type: 3}
+  - main: {fileID: 21300000, guid: 7c39f90387f4ad541b5b9a3edf4e9859, type: 3}
+    dress: {fileID: 0}
+    leftArm: {fileID: 0}
+    rightArm: {fileID: 0}
+    back: {fileID: 0}
+  - main: {fileID: 0}
+    dress: {fileID: 21300000, guid: 5c00c36d7c9d1b844bc9a4af0e789dff, type: 3}
+    leftArm: {fileID: 21300000, guid: 000a70dc0408d3c4d8e2454ecec88e98, type: 3}
+    rightArm: {fileID: 21300000, guid: bce4c5971545aeb42a44d087fbb15f2d, type: 3}
+    back: {fileID: 0}
+  - main: {fileID: 21300000, guid: 21449a066d517b84d868b990f93e98cf, type: 3}
+    dress: {fileID: 0}
+    leftArm: {fileID: 21300000, guid: 47fa97062a47e04438e7c8acf9f6c048, type: 3}
+    rightArm: {fileID: 21300000, guid: 24904b065357db94ab852f5d5486baf1, type: 3}
+    back: {fileID: 0}
+  shoes:
+  - leftShoe: {fileID: 0}
+    rightShoe: {fileID: 0}
+  - leftShoe: {fileID: -8652691663926109379, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}
+    rightShoe: {fileID: -8652691663926109379, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}
+  - leftShoe: {fileID: 725488149180932976, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}
+    rightShoe: {fileID: 725488149180932976, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}
+  - leftShoe: {fileID: -7965801283115495922, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}
+    rightShoe: {fileID: -7965801283115495922, guid: 17b006dd36b43b445be1ce54ff42d882, type: 3}

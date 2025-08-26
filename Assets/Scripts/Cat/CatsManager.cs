@@ -60,8 +60,10 @@ public class CatsManager : MonoBehaviour
 public struct ShirtSprites
 {
     public Sprite main;
+    public Sprite dress;
     public Sprite leftArm;
     public Sprite rightArm;
+    public Sprite back;
 }
 
 [Serializable]

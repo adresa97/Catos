@@ -1516,14 +1516,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4bbbb8024d00d4292d32584ea89d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headAccesory: {fileID: 0}
+  behaviour: {fileID: 7095764680263719249}
+  headAccesory: {fileID: 2839397131762618938}
   shirt:
-    main: {fileID: 0}
-    leftArm: {fileID: 0}
-    rightArm: {fileID: 0}
+    main: {fileID: 7522540004348022080}
+    dress: {fileID: 908166016392094675}
+    leftArm: {fileID: 279570773894123665}
+    rightArm: {fileID: 8574166610743722794}
+    back: {fileID: 2623902077370358224}
   shoes:
-    leftShoe: {fileID: 0}
-    rightShoe: {fileID: 0}
+    leftShoe: {fileID: 2433741198494180159}
+    rightShoe: {fileID: 5553348138731874508}
 --- !u!1 &6622911300448111403
 GameObject:
   m_ObjectHideFlags: 0

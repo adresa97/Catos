@@ -4,14 +4,19 @@ using UnityEngine;
 public class CatWardrobe : MonoBehaviour
 {
     [SerializeField]
+    private CatBehaviour behaviour;
+
+    [SerializeField]
     private SpriteRenderer headAccesory;
 
     [Serializable]
     struct ShirtRenderer
     {
         public SpriteRenderer main;
+        public SpriteRenderer dress;
         public SpriteRenderer leftArm;
         public SpriteRenderer rightArm;
+        public SpriteRenderer back;
     }
 
     [SerializeField]
@@ -29,52 +34,100 @@ public class CatWardrobe : MonoBehaviour
 
     public void ChangeClothes(Sprite newHead, ShirtSprites newShirt, ShoesSprites newShoes)
     {
-        if (headAccesory.sprite != newHead)
+        // Conditions
+        Boolean hasNewHead = headAccesory.sprite != newHead;
+        Boolean hasNewShoe = shoes.leftShoe.sprite != newShoes.leftShoe;
+        Boolean hasNewBody = false;
+        if (newShirt.main != null && shirt.main.sprite != newShirt.main) hasNewBody = true;
+        else if (newShirt.dress != null && shirt.dress.sprite != newShirt.dress) hasNewBody = true;
+        else if (newShirt.back != null && shirt.back.sprite != newShirt.back) hasNewBody = true;
+
+        // Animation Sequence
+        int changeAnimation = 0;
+
+        // Head Accessory
+        if (hasNewHead)
         {
-            headAccesory.sprite = newHead;
-            if (newHead == null)
+            if (newHead != null)
             {
-                headAccesory.enabled = false;
-            } else if (!headAccesory.enabled)
-            {
-                headAccesory.enabled = true;
+                headAccesory.sprite = newHead;
+                if (!headAccesory.enabled) headAccesory.enabled = true;
             }
-        }
-        if (shirt.main.sprite != newShirt.main)
-        {
-            Debug.Log("Recibí una camiseta nueva");
-            shirt.main.sprite = newShirt.main;
-            shirt.leftArm.sprite = newShirt.leftArm;
-            shirt.rightArm.sprite = newShirt.rightArm;
-            if (newShirt.main == null)
+            else
             {
-                Debug.Log("La camiseta es ir desnudo");
+                headAccesory.sprite = null;
+                headAccesory.enabled = false;
+            }
+
+            changeAnimation += 2;
+        }
+
+        // Body Apparel
+        if (hasNewBody)
+        {
+            if (newShirt.main != null || newShirt.dress != null || newShirt.back != null)
+            {
+                shirt.main.sprite = newShirt.main;
+                shirt.dress.sprite = newShirt.dress;
+                shirt.leftArm.sprite = newShirt.leftArm;
+                shirt.rightArm.sprite = newShirt.rightArm;
+                shirt.back.sprite = newShirt.back;
+                if (!shirt.main.enabled)
+                {
+                    shirt.main.enabled = true;
+                    shirt.dress.enabled = true;
+                    shirt.leftArm.enabled = true;
+                    shirt.rightArm.enabled = true;
+                    shirt.back.enabled = true;
+                }
+            }
+            else
+            {
+                shirt.main.sprite = null;
+                shirt.dress.sprite = null;
+                shirt.leftArm.sprite = null;
+                shirt.rightArm.sprite = null;
+                shirt.back.sprite = null;
+
                 shirt.main.enabled = false;
+                shirt.dress.enabled = false;
                 shirt.leftArm.enabled = false;
                 shirt.rightArm.enabled = false;
+                shirt.back.enabled = false;
             }
-            else if (!shirt.main.enabled)
-            {
-                Debug.Log("Ya basta de ir denudo por la vida");
-                shirt.main.enabled = true;
-                shirt.leftArm.enabled = true;
-                shirt.rightArm.enabled = true;
-            }
+
+            if (changeAnimation == 0) changeAnimation += 2;
         }
-        if (shoes.leftShoe.sprite != newShoes.leftShoe)
+
+        // Shoes
+        if (hasNewShoe)
         {
-            shoes.leftShoe.sprite = newShoes.leftShoe;
-            shoes.rightShoe.sprite = newShoes.rightShoe;
-            if (newShoes.leftShoe == null)
+            if (newShoes.leftShoe != null)
             {
+                shoes.leftShoe.sprite = newShoes.leftShoe;
+                shoes.rightShoe.sprite = newShoes.rightShoe;
+                if (!shoes.leftShoe.enabled)
+                {
+                    shoes.leftShoe.enabled = true;
+                    shoes.rightShoe.enabled = true;
+                }
+            }
+            else
+            {
+                shoes.leftShoe.sprite = null;
+                shoes.rightShoe.sprite = null;
+
                 shoes.leftShoe.enabled = false;
                 shoes.rightShoe.enabled = false;
             }
-            else if (!shoes.leftShoe.enabled)
-            {
-                shoes.leftShoe.enabled = true;
-                shoes.rightShoe.enabled = true;
-            }
+
+            changeAnimation += 1;
+        }
+
+        // Result
+        if (changeAnimation > 0)
+        {
+            behaviour.OnChangeClothesStart(changeAnimation);
         }
     }
 }

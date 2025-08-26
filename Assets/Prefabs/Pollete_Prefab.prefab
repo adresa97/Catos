@@ -1111,14 +1111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4bbbb8024d00d4292d32584ea89d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headAccesory: {fileID: 0}
+  behaviour: {fileID: 3796326283748625407}
+  headAccesory: {fileID: 4370312124162449694}
   shirt:
-    main: {fileID: 0}
-    leftArm: {fileID: 0}
-    rightArm: {fileID: 0}
+    main: {fileID: 825703331135917554}
+    dress: {fileID: 4684510422708468003}
+    leftArm: {fileID: 5963134489090672904}
+    rightArm: {fileID: 5965996219955364766}
+    back: {fileID: 7643586248811752203}
   shoes:
-    leftShoe: {fileID: 0}
-    rightShoe: {fileID: 0}
+    leftShoe: {fileID: 5721200419092165238}
+    rightShoe: {fileID: 6673195809592642480}
 --- !u!1 &3685210050956461684
 GameObject:
   m_ObjectHideFlags: 0

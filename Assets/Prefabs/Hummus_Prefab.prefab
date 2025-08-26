@@ -1969,14 +1969,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4bbbb8024d00d4292d32584ea89d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headAccesory: {fileID: 0}
+  behaviour: {fileID: 2115736814327826108}
+  headAccesory: {fileID: 1423745859218562483}
   shirt:
-    main: {fileID: 0}
-    leftArm: {fileID: 0}
-    rightArm: {fileID: 0}
+    main: {fileID: 4420614718325016444}
+    dress: {fileID: 1817960872605606199}
+    leftArm: {fileID: 3347330171067811429}
+    rightArm: {fileID: 1469753964568055674}
+    back: {fileID: 5896069620623270776}
   shoes:
-    leftShoe: {fileID: 0}
-    rightShoe: {fileID: 0}
+    leftShoe: {fileID: 4824622026599582604}
+    rightShoe: {fileID: 6228979569437369344}
 --- !u!1 &7995824387076976383
 GameObject:
   m_ObjectHideFlags: 0

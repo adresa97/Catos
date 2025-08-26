@@ -243,14 +243,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4bbbb8024d00d4292d32584ea89d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headAccesory: {fileID: 0}
+  behaviour: {fileID: 7624580164832454898}
+  headAccesory: {fileID: 3943384246337281233}
   shirt:
-    main: {fileID: 0}
-    leftArm: {fileID: 0}
-    rightArm: {fileID: 0}
+    main: {fileID: 6839713155910715399}
+    dress: {fileID: 1011577291503208273}
+    leftArm: {fileID: 5109286600852092286}
+    rightArm: {fileID: 5421082926446642957}
+    back: {fileID: 6847199810022942795}
   shoes:
-    leftShoe: {fileID: 0}
-    rightShoe: {fileID: 0}
+    leftShoe: {fileID: 7893715485007807562}
+    rightShoe: {fileID: 4051636516609641755}
 --- !u!1 &571627302134532945
 GameObject:
   m_ObjectHideFlags: 0
