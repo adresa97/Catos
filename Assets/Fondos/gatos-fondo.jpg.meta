@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gatos-fondo_0: 5697943430144750247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
