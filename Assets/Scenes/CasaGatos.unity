@@ -150,8 +150,8 @@ MonoBehaviour:
   catEvents: {fileID: 11400000, guid: d728c82dd05b72142880fc431ecbd316, type: 2}
   cats:
   - {fileID: 1882382160}
-  - {fileID: 1235160714}
   - {fileID: 1087258476}
+  - {fileID: 1235160714}
   - {fileID: 1851062684}
   - {fileID: 574239207}
   headAccesories:
