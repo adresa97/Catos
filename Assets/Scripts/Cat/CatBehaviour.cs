@@ -133,6 +133,22 @@ public class CatBehaviour : MonoBehaviour
         SetRandomPatrol();
     }
 
+    public void ComerSardina()
+    {
+        if (_patrolCoroutine != null) StopCoroutine(_patrolCoroutine);
+        _rb.velocity = Vector2.zero;
+        _animator.SetTrigger("Sardina");
+
+        // lanza la corutina de reset
+        StartCoroutine(ResetTrasComerSardina());
+    }
+
+    private IEnumerator ResetTrasComerSardina()
+    {
+        yield return new WaitForSeconds(1f); // espera 1 segundo
+        SetRandomPatrol();
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("MapBounds"))
