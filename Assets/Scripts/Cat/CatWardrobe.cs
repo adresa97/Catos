@@ -37,10 +37,7 @@ public class CatWardrobe : MonoBehaviour
         // Conditions
         Boolean hasNewHead = headAccesory.sprite != newHead;
         Boolean hasNewShoe = shoes.leftShoe.sprite != newShoes.leftShoe;
-        Boolean hasNewBody = false;
-        if (newShirt.main != null && shirt.main.sprite != newShirt.main) hasNewBody = true;
-        else if (newShirt.dress != null && shirt.dress.sprite != newShirt.dress) hasNewBody = true;
-        else if (newShirt.back != null && shirt.back.sprite != newShirt.back) hasNewBody = true;
+        Boolean hasNewBody = shirt.main.sprite != newShirt.main || shirt.dress.sprite != newShirt.dress || shirt.back.sprite != newShirt.back;
 
         // Animation Sequence
         int changeAnimation = 0;
@@ -96,7 +93,7 @@ public class CatWardrobe : MonoBehaviour
                 shirt.back.enabled = false;
             }
 
-            if (changeAnimation == 0) changeAnimation += 2;
+            changeAnimation += 3;
         }
 
         // Shoes
@@ -125,6 +122,7 @@ public class CatWardrobe : MonoBehaviour
         }
 
         // Result
+        if (changeAnimation > 3) changeAnimation = 3;
         if (changeAnimation > 0)
         {
             behaviour.OnChangeClothesStart(changeAnimation);

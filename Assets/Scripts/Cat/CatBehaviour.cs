@@ -22,7 +22,7 @@ public class CatBehaviour : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
 
-        direction = 0;
+        direction = Random.value < 0.5f ? -1 : 1;
         StartPatrol();
     }
 
@@ -123,6 +123,7 @@ public class CatBehaviour : MonoBehaviour
     public void OnChangeClothesStart(int animation)
     {
         StopCoroutine(_patrolCoroutine);
+        _rb.velocity = new Vector2(0, _rb.velocity.y);
         _animator.SetInteger("IndexAnimacionRopa", animation);
     }
 
