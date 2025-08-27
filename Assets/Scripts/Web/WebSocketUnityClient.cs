@@ -70,7 +70,7 @@ public class WebSocketUnityClient : MonoBehaviour
         }
 
         int.TryParse(data[0].ToString(), out int msgType);
-        if (msgType == '1')
+        if (msgType == 1)
         {
             Debug.Log("Código (" + data + ") recibido corresponde a un pescado");
             lock (TODO)

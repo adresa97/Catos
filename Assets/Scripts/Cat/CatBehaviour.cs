@@ -46,7 +46,7 @@ public class CatBehaviour : MonoBehaviour
 
         lastDirection = direction;
         direction = GetRandomDirection();
-        Debug.Log("Direction: " + direction);
+        //Debug.Log("Direction: " + direction);
 
         _patrolCoroutine = StartCoroutine(PatrolRoutine(direction));
     }
@@ -57,7 +57,7 @@ public class CatBehaviour : MonoBehaviour
 
         lastDirection = direction;
         direction = -direction;
-        Debug.Log("Direction: " + direction);
+        //Debug.Log("Direction: " + direction);
 
         _patrolCoroutine = StartCoroutine(PatrolRoutine(direction));
     }
@@ -67,7 +67,7 @@ public class CatBehaviour : MonoBehaviour
         while (true)
         {
             float timeLimit = 0f;
-            if (direction == 0) timeLimit = GetRandomTime(minTimeIdle, maxTimeIdle);
+            if (direction == -1 || direction == 1) timeLimit = GetRandomTime(minTimeIdle, maxTimeIdle);
             else timeLimit = GetRandomTime(minTimePatrolling, maxTimePatrolling);
 
             float timer = 0f;
@@ -133,20 +133,17 @@ public class CatBehaviour : MonoBehaviour
         SetRandomPatrol();
     }
 
-    public void ComerSardina()
+    public void OnFoodStart()
     {
         if (_patrolCoroutine != null) StopCoroutine(_patrolCoroutine);
         _rb.velocity = Vector2.zero;
         _animator.SetTrigger("Sardina");
-
-        // lanza la corutina de reset
-        StartCoroutine(ResetTrasComerSardina());
     }
 
-    private IEnumerator ResetTrasComerSardina()
+    public void OnFoodEnd()
     {
-        yield return new WaitForSeconds(1f); // espera 1 segundo
         SetRandomPatrol();
+        Debug.Log("Finish eating");
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
