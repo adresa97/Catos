@@ -26330,9 +26330,17 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 110
       objectReference: {fileID: 0}
+    - target: {fileID: 7050903487167303772, guid: 0130b96321ed8f04abfb755a9ca2fc2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7065267411312254733, guid: 0130b96321ed8f04abfb755a9ca2fc2c, type: 3}
       propertyPath: m_TagString
       value: Gatos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995824387076976383, guid: 0130b96321ed8f04abfb755a9ca2fc2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8700329102481576596, guid: 0130b96321ed8f04abfb755a9ca2fc2c, type: 3}
       propertyPath: m_Constraints
